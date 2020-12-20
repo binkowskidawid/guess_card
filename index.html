@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards Game</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game_board">
+            <div class="game_result">
+                <div class="win">Wins: <span>0</span></div>
+                <div class="defeat">Lost: <span>0</span></div>
+            </div>
+            <h1>Guess which card computer chose</h1>
+            <div class="player_choice">
+                <div class="player_card"><img id="0" src="img/9.PNG" alt="9"></div>
+                <div class="player_card"><img id="1" src="img/10.PNG" alt="10"></div>
+                <div class="player_card"><img id="2" src="img/J.PNG" alt="j"></div>
+                <div class="player_card"><img id="3" src="img/Q.PNG" alt="q"></div>
+                <div class="player_card"><img id="4" src="img/K.PNG" alt="k"></div>
+                <div class="player_card"><img id="5" src="img/A.PNG" alt="a"></div>
+            </div>
+            <button class="check">check</button>
+            <h1>Computer card</h1>
+            <div class="computer_choice">
+                <div class="computer_card"><img id="u" src="img/u.PNG" alt="u"></div>
+            </div>
+        </div>
+        <div class="results hidden">You Win!!!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
