@@ -29,6 +29,7 @@ const chooseCard = () => {
 const showResult = () => {
 	// function updating state score and shows result
 	if (valueOfCard.toString() == computerCardSrc.id) {
+		result.textContent = "You Win :)";
 		result.classList.remove("hidden");
 		win.textContent++;
 	} else {
@@ -46,8 +47,8 @@ const resetGame = () => {
 		});
 		// reset valueOfCard to begining
 		valueOfCard = -1;
-		// if (valueOfCard == -1) alert("Play again :)")
 		result.classList.add("hidden");
+		result.textContent = "";
 		btnCheck.textContent = "check";
 	}
 };

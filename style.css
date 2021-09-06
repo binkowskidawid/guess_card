@@ -68,15 +68,15 @@ img.choice {
 
 div.results {
 	position: fixed;
-	top: 25%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
-	width: 75vw;
-	height: 25vw;
+	width: 50vw;
+	height: 15vw;
 	background-color: #343434;
 	border-radius: 10px;
 	font-size: 75px;
@@ -136,6 +136,7 @@ button.check:hover {
 @media screen and (max-width: 768px) {
 	div.game_result {
 		margin: 0 auto;
+		padding-top: 35px;
 		font-size: 22px;
 	}
 	h1 {
@@ -152,12 +153,14 @@ button.check:hover {
 	}
 	div.player_card img,
 	div.computer_card img {
-		width: 23vw;
+		width: 21vw;
 	}
 	button.check {
 		font-size: 15px;
 	}
 	div.results {
+		top: 30%;
 		font-size: 45px;
+		padding: 10px;
 	}
 }
